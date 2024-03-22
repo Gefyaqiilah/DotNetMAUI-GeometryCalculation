@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BangunRuang.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,30"
+            Spacing="25">
+
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="Kalkulasi Bangun Ruang"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+
+        <Button x:Name="button_kubus" Text="Kubus" Clicked="Kubus_Clicked"/>
+        <Button x:Name="button_balok" Text="Balok" Clicked="Balok_Clicked" />
+        <Button x:Name="button_tabung" Text="Tabung" Clicked="Tabung_Clicked" />
+        <Button x:Name="button_bola" Text="Bola" Clicked="Bola_Clicked" />
+        <Button x:Name="button_kerucut" Text="Kerucut" Clicked="Kerucut_Clicked" />
+        <Button x:Name="button_back" Text="Back" Clicked="Back_Clicked" IsVisible="False" />
+
+ <!-- Input fields for Cube -->
+        <Label IsVisible="False" Text="Luas permukaan kubus:" x:Name="cubeSideLabel"  />
+        <Entry IsVisible="False" x:Name="cubeSideEntry" />
+
+        <!-- Input fields for Rectangular Prism -->
+        <Label IsVisible="False" Text="Panjang balok:" x:Name="prismLengthLabel" />
+        <Entry IsVisible="False" x:Name="prismLengthEntry" />
+
+        <Label IsVisible="False" Text="Lebar balok:" x:Name="prismWidthLabel" />
+        <Entry IsVisible="False" x:Name="prismWidthEntry" />
+
+        <Label IsVisible="False" Text="Tinggi balok:" x:Name="prismHeightLabel" />
+        <Entry IsVisible="False" x:Name="prismHeightEntry" />
+
+        <!-- Input fields for Cylinder -->
+        <Label IsVisible="False" Text="Radius tabung:" x:Name="cylinderRadiusLabel" />
+        <Entry IsVisible="False" x:Name="cylinderRadiusEntry" />
+
+        <Label IsVisible="False" Text="Tinggi tabung:" x:Name="cylinderHeightLabel"/>
+        <Entry IsVisible="False" x:Name="cylinderHeightEntry" />
+
+        <!-- Input fields for Sphere -->
+        <Label IsVisible="False" Text="Radius bola:" x:Name="sphereRadiusLabel" />
+        <Entry IsVisible="False" x:Name="sphereRadiusEntry" />
+
+        <!-- Input fields for Cone -->
+        <Label IsVisible="False" Text="Radius kerucut:" x:Name="coneRadiusLabel" />
+        <Entry IsVisible="False" x:Name="coneRadiusEntry" />
+
+        <Label IsVisible="False" Text="Tinggi kerucut:" x:Name="coneHeightLabel" />
+        <Entry IsVisible="False" x:Name="coneHeightEntry" />
+
+        <Button x:Name="button_calculate" IsVisible="False" Text="Hitung" Clicked="CalculateButton_Clicked" />
+
+        <Label IsVisible="False" x:Name="resultLabel" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

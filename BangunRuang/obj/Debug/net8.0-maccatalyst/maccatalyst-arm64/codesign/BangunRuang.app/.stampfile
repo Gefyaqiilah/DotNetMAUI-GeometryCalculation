@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/gefyaqiilah/Documents/School/Assignments/Semester3/PBO/BangunRuang/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/gefyaqiilah/Documents/School/Assignments/Semester3/PBO/BangunRuang/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/BangunRuang.app

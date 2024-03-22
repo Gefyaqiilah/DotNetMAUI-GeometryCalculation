@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="BangunRuang.app/BangunRuang">
+      <BCSymbolMapName>BangunRuang.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>BangunRuang.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/gefyaqiilah/Documents/School/Assignments/Semester3/PBO/BangunRuang/obj/Debug/net8.0-ios/iossimulator-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>BangunRuang.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/gefyaqiilah/Documents/School/Assignments/Semester3/PBO/BangunRuang</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
